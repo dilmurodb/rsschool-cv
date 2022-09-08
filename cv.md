@@ -41,3 +41,14 @@ GitHub: [github account](https://github.com/dilmurodb)
 - **Freelance Web Developer 4/2020 - 10/2021**
 - **Web Application Developer at Independant Project Analysis Inc 12/2021 - 4/2022**
 - **Freelance Web Developer 5/2022 -current**
+
+### Education
+
+- **General Assembly. Software Engineering Immersive Certificate. 10/2019 - 2/2020**
+- **Moscow State University of Steel and Alloys. Master's degree in Metallurgical Engineering.9/2011 - 6/2013**
+- **NUST 'MISiS'. Bachelor's degree in Metallurgical Engineering. 9/2007 - 6/2011**
+
+### English Language Skills
+
+- **IELTS Certificate Band 7.5**
+- **I lived in USA for 4 years and during that period I worked with English speakers. I also attended in person classes at General Assembly to learn Web Development in English Language.**
