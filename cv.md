@@ -29,3 +29,9 @@ GitHub: [github account](https://github.com/dilmurodb)
 ###Code example
 **The code below is the part of the game script called tic-tac-toe. It changes the background color of the grids into white. Query selectors are used to select grids. The main logic in this part is resetGame function**
 `const grids = document.querySelectorAll(".squares"); const turnIndicator = document.getElementById("turnbox"); turnIndicator.style.backgroundColor = "blue"; let button = document.querySelector(".button"); button.addEventListener("click", function resetGame() { for (let i = 0; i < grids.length; i++) { grids[i].style.backgroundColor = "white"; turnIndicator.style.backgroundColor = "blue"; checkbox = 0; turn = 0; }`
+
+###Experience
+
+- **Freelance Web Developer 4/2020 - 10/2021**
+- **Web Application Developer at Independant Project Analysis Inc 12/2021 - 4/2022**
+- **Freelance Web Developer 5/2022 -current**
