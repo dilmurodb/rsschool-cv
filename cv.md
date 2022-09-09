@@ -6,10 +6,10 @@
 
 #### Contact information
 
-Phone: +998910101711
-E-mail: bukharov.dilmurod@yandex.ru
-Telegram: @dilmurodbukharov
-GitHub: [github account](https://github.com/dilmurodb)
+- Phone: +998910101711
+- E-mail: bukharov.dilmurod@yandex.ru
+- Telegram: @dilmurodbukharov
+- GitHub: [github account](https://github.com/dilmurodb)
 
 ### About myself
 
@@ -34,6 +34,7 @@ GitHub: [github account](https://github.com/dilmurodb)
 ### Code example
 
 **The code below is the part of the game script called tic-tac-toe. It changes the background color of the grids into white. Query selectors are used to select grids. The main logic in this part is resetGame function**
+
 `const grids = document.querySelectorAll(".squares"); const turnIndicator = document.getElementById("turnbox"); turnIndicator.style.backgroundColor = "blue"; let button = document.querySelector(".button"); button.addEventListener("click", function resetGame() { for (let i = 0; i < grids.length; i++) { grids[i].style.backgroundColor = "white"; turnIndicator.style.backgroundColor = "blue"; checkbox = 0; turn = 0; }`
 
 ### Experience
@@ -48,7 +49,7 @@ GitHub: [github account](https://github.com/dilmurodb)
 - **Moscow State University of Steel and Alloys. Master's degree in Metallurgical Engineering.9/2011 - 6/2013**
 - **NUST 'MISiS'. Bachelor's degree in Metallurgical Engineering. 9/2007 - 6/2011**
 
-### English Language Skills
+### English Language Proficiency
 
 - **IELTS Certificate Band 7.5**
 - **I lived in USA for 4 years and during that period I worked with English speakers. I also attended in person classes at General Assembly to learn Web Development in English Language.**
