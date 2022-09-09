@@ -58,6 +58,56 @@
           </ul>
         </div>
       </div>
+      <h2>Code Example</h2>
+      <p>
+        The code below is the part of the game script called tic-tac-toe. It
+        changes the background color of the grids into white. Query selectors
+        are used to select grids. The main logic in this part is resetGame
+        function
+      </p>
+      <code>
+        const grids = document.querySelectorAll(".squares"); const turnIndicator
+        = document.getElementById("turnbox");
+        turnIndicator.style.backgroundColor = "blue"; let button =
+        document.querySelector(".button"); button.addEventListener("click",
+        function resetGame() { for (let i = 0; i < grids.length; i++) {
+        grids[i].style.backgroundColor = "white";
+        turnIndicator.style.backgroundColor = "blue"; checkbox = 0; turn = 0;
+        }</code
+      >
+      <h2>Experience</h2>
+      <ul>
+        <li>Freelance Web Developer 4/2020 - 10/2021</li>
+        <li>
+          Web Application Developer at Independant Project Analysis Inc 12/2021
+          - 4/2022
+        </li>
+        <li>Freelance Web Developer 5/2022 -current</li>
+      </ul>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          General Assembly. Software Engineering Immersive Certificate. 10/2019
+          - 2/2020
+        </li>
+        <li>
+          Moscow State University of Steel and Alloys. Master's degree in
+          Metallurgical Engineering.9/2011 - 6/2013
+        </li>
+        <li>
+          NUST 'MISiS'. Bachelor's degree in Metallurgical Engineering. 9/2007 -
+          6/2011
+        </li>
+      </ul>
+      <h2>English Language Proficiency</h2>
+      <ul>
+        <li>IELTS Certificate Band 7.5</li>
+        <li>
+          I lived in USA for 4 years and during that period I worked with
+          English speakers. I also attended in person classes at General
+          Assembly to learn Web Development in English Language.
+        </li>
+      </ul>
     </div>
   </body>
 </html>
