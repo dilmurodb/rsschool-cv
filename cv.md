@@ -10,6 +10,7 @@
 - E-mail: bukharov.dilmurod@yandex.ru
 - Telegram: @dilmurodbukharov
 - GitHub: [github account](https://github.com/dilmurodb)
+- Discord username: dilmurodb#1902
 
 ### About myself
 
