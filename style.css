@@ -1,0 +1,24 @@
+body {
+  background-color: lightgreen;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.skills-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.code {
+  background-color: bisque;
+}
