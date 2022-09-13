@@ -1,8 +1,33 @@
+body {
+  background-color: lightgreen;
+}
+.container-box {
+  display: flex;
+  justify-content: center;
+}
 .container {
   display: flex;
-  justify-content: flex-start;
+  width: 80vw;
+  align-items: center;
   flex-direction: column;
 }
 h1 {
+  /* font-size: 40px; */
+  /* color: green; */
+}
+/* h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+} */
+.about-text {
+  font-size: 20px;
+}
+.code-description-text {
+  font-size: 20px;
   color: green;
+}
+.code {
+  background-color: lightgray;
 }
