@@ -34,10 +34,6 @@ body {
   height: 50px;
 }
 
-/* .footer {
-  background-color: white;
-} */
-
 .footer-box {
   display: flex;
   flex-direction: row;
