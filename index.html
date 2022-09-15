@@ -6,110 +6,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dilmurod Bukharov</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/46cff5d5e4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <div class="inner-container">
-        <h1>Dilmurod Bukharov</h1>
-        <h2>Junior Front-end Developer</h2>
-        <h3>Contact Information</h3>
-        <ul>
-          <li>Phone: +998910101711</li>
-          <li>E-mail: bukharov.dilmurod@yandex.ru</li>
-          <li>Telegram: @dilmurodbukharov</li>
-          <li>GitHub:</li>
-          <li>Discord username: dilmurodb#1902</li>
-        </ul>
-        <h2>About myself</h2>
-        <p class="about-text">
-          Curiosity and drive for learning motivates me to explore new skills.
-          Although my educational background is in metallurgical engineering,
-          since 2020 I have decided to start a new career path in web
-          development and enrolled in Software Engineering Immersive Course,
-          where I learned the fundamentals of programming. I found that
-          front-end technologies such as JavaScript and ReactJS are my favorite
-          coding languages. Now I have been working on my personal websites and
-          occasional freelance projects to build front-end web applications.
-          Although my experience working for an IT company is less then a year,
-          I have gained experience working in team environment and learned how
-          to collaborate with other programmers. I am result focused,
-          self-motivated and very organized which helps me to write clean code.
-        </p>
-        <h2>Skills</h2>
-        <div class="skills-box">
-          <div>
-            <h3>Programming languages</h3>
-            <ul>
-              <li>HTML5, CSS3</li>
-              <li>JavaScript, TypeScript</li>
-              <li>NodeJS</li>
-            </ul>
+        <header>
+          <div class="header-box">
+            <div class="image-box">
+              <a href="https://www.dbukharov.com/" target="_blank"
+                ><img
+                  src="image.jpg"
+                  alt="Profile picture"
+                  width="250"
+                  height="250"
+              /></a>
+            </div>
+            <div class="name-contact-box">
+              <h1>Dilmurod Bukharov</h1>
+              <h2>Junior Front-end Developer</h2>
+              <h3>Contact Information</h3>
+              <ul>
+                <li><b>Phone:</b> +998910101711</li>
+                <li><b>E-mail:</b> bukharov.dilmurod@yandex.ru</li>
+                <li>
+                  <b>Portfolio:</b>
+                  <a href="https://www.dbukharov.com/" target="_blank"
+                    >www.dbukharov.com</a
+                  >
+                </li>
+                <li>
+                  <b>GitHub:</b>
+                  <a href="https://github.com/dilmurodb" target="_blank"
+                    >dilmurodb</a
+                  >
+                </li>
+                <li><b>Discord:</b> dilmurodb#1902</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3>Frameworks</h3>
-            <ul>
-              <li>ReactJS</li>
-            </ul>
+        </header>
+        <main>
+          <h2>About myself</h2>
+          <p class="about-text">
+            Curiosity and drive for learning motivates me to explore new skills.
+            Although my educational background is in metallurgical engineering,
+            since 2020 I have decided to start a new career path in web
+            development and enrolled in Software Engineering Immersive Course,
+            where I learned the fundamentals of programming. I found that
+            front-end technologies such as JavaScript and ReactJS are my
+            favorite coding languages. Now I have been working on my personal
+            websites and occasional freelance projects to build front-end web
+            applications. Although my work experience for an IT company is less
+            then a year, I have gained skills working in team environment and
+            learned how to collaborate with other programmers. I am result
+            focused, self-motivated and very organized which helps me to write
+            clean code.
+          </p>
+          <h2>Skills</h2>
+          <div class="skills-box">
+            <div>
+              <h3>Programming languages</h3>
+              <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript, TypeScript</li>
+                <li>NodeJS</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Frameworks</h3>
+              <ul>
+                <li>ReactJS</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Platforms</h3>
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3>Platforms</h3>
-            <ul>
-              <li>Git</li>
-              <li>GitHub</li>
-            </ul>
-          </div>
-        </div>
-        <h2>Code Example</h2>
-        <p class="code-description-text">
-          The code below is the part of the game script called tic-tac-toe. It
-          changes the background color of the grids into white. Query selectors
-          are used to select grids. The main logic in this part is resetGame
-          function
-        </p>
-        <code class="code">
-          const grids = document.querySelectorAll(".squares"); const
-          turnIndicator = document.getElementById("turnbox");
-          turnIndicator.style.backgroundColor = "blue"; let button =
-          document.querySelector(".button"); button.addEventListener("click",
-          function resetGame() { for (let i = 0; i < grids.length; i++) {
-          grids[i].style.backgroundColor = "white";
-          turnIndicator.style.backgroundColor = "blue"; checkbox = 0; turn = 0;
-          }</code
-        >
-        <h2>Experience</h2>
-        <ul>
-          <li>Freelance Web Developer 4/2020 - 10/2021</li>
-          <li>
-            Web Application Developer at Independant Project Analysis Inc
-            12/2021 - 4/2022
-          </li>
-          <li>Freelance Web Developer 5/2022 - current</li>
-        </ul>
-        <h2>Education</h2>
-        <ul>
-          <li>
-            General Assembly. Software Engineering Immersive Certificate.
-            10/2019 - 2/2020
-          </li>
-          <li>
-            Moscow State University of Steel and Alloys. Master's degree in
-            Metallurgical Engineering. 9/2011 - 6/2013
-          </li>
-          <li>
-            NUST 'MISiS'. Bachelor's degree in Metallurgical Engineering. 9/2007
-            - 6/2011
-          </li>
-        </ul>
-        <h2>English Language Proficiency</h2>
-        <ul>
-          <li>IELTS Certificate Band 7.5</li>
-          <li>
-            I lived in USA for 4 years and during that period I worked with
-            English speakers. I also attended in person classes at General
-            Assembly to learn Web Development in English Language.
-          </li>
-        </ul>
+          <h2>Code Example</h2>
+          <p class="code-description-text">
+            The code below is the part of the game script called tic-tac-toe. It
+            changes the background color of the grids into white. Query
+            selectors are used to select grids. The main logic in this part is
+            resetGame function
+          </p>
+          <code class="code">
+            const grids = document.querySelectorAll(".squares"); const
+            turnIndicator = document.getElementById("turnbox");
+            turnIndicator.style.backgroundColor = "blue"; let button =
+            document.querySelector(".button"); button.addEventListener("click",
+            function resetGame() { for (let i = 0; i &lt; grids.length; i++) {
+            grids[i].style.backgroundColor = "white";
+            turnIndicator.style.backgroundColor = "blue"; checkbox = 0; turn =
+            0; }</code
+          >
+          <h2>Experience</h2>
+          <ul>
+            <li><b>Freelance</b>. Web Developer. 5/2022 - current</li>
+            <li>
+              <b>Independant Project Analysis Inc</b>. Web Application
+              Developer. 12/2021 - 4/2022
+            </li>
+            <li><b>Freelance</b>. Web Developer. 4/2020 - 10/2021</li>
+            <li>
+              <b
+                >University of Pittsburgh, Center for Social and Urban
+                Research</b
+              >. Data Collection Interviewer. 3/2019 - 10/2019
+            </li>
+            <li>
+              <b>Tashkent Railway Engineering Institute</b>. Teacher's
+              Assistant. 9/2013 - 5/2014
+            </li>
+          </ul>
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <b>General Assembly Washington DC</b>. Software Engineering
+              Immersive Certificate. 10/2019 - 2/2020
+            </li>
+            <li>
+              <b>Westminster International University in Tashkent</b>.
+              Economics. 9/2017 - 6/2018
+            </li>
+            <li>
+              <b>NUST "Moscow Institute of Steel and Alloys"</b>. Master's
+              degree in Metallurgical Engineering. 9/2011 - 6/2013
+            </li>
+            <li>
+              <b>NUST "Moscow Institute of Steel and Alloys"</b>. Bachelor's
+              degree in Metallurgical Engineering. 9/2007 - 6/2011
+            </li>
+          </ul>
+          <h2>English Language Proficiency</h2>
+          <ul>
+            <li>
+              I lived in USA for 4 years and during that period I worked with
+              English speakers. I also attended in person classes at General
+              Assembly to learn Web Development in English Language. 2018 - 2022
+            </li>
+            <li><b>IELTS</b> Certificate. Band 7.5</li>
+            <li>
+              <b>Language Link Tashkent</b>. Certificate of Completion. 4/2015 -
+              4/2017
+            </li>
+          </ul>
+        </main>
       </div>
     </div>
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="github-logo-box">
+          <a href="https://github.com/dilmurodb" target="_blank"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+        </div>
+        <div class="rs-logo-box">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="RS School Logo"
+              class="rs-logo"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-year">2022</div>
+    </footer>
   </body>
 </html>
