@@ -1,4 +1,4 @@
-![resume picture](./image.jpg)
+<img src="image.jpg" alt="Profile picture" width="250">
 
 # Dilmurod Bukharov
 
