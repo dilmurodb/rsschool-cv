@@ -2,7 +2,7 @@
 
 ## **Junior Web Developer**
 
-### Contact information
+### **Contact information**
 
 * **Phone:** +(998)910101711
 
