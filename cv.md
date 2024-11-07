@@ -34,7 +34,7 @@
 
 ## **Code example**
 
-> **The code** below is the part of the game script called [tic-tac-toe](https://github.com/dilmurodb/tic-tac/blob/master/main.js).
+> **The code** below is the part of the game script called [tic-tac-toe](https://github.com/dilmurodb/tic-tac/blob/master/main.js). [Here](https://dilmurodb.github.io/tic-tac/) is the link to deployed website.
 
 ```
 let button = document.querySelector(".button");
@@ -47,3 +47,19 @@ button.addEventListener("click", function resetGame() {
   }
 });
 ```
+
+## **Experience**
+
+* Freelance Web Developer 5/2022 - current
+* Web Application Developer at [Independent Project Analysis Inc](https://www.ipaglobal.com/) 12/2021 - 04/2022
+* Insurance agent at [Prestige Insurance services](http://prestige01.com/) 05/2021 - 12/2021
+* Data Collection Interviewer at [UCSUR, University of Pittsburgh](https://ucsur.pitt.edu/) 03/2019 - 10/1019
+* Sales Associate at [Forever XXI](https://locations.forever21.com/us/stores/pa/pittsburgh/100-robinson-centre-dr) 01/2019 - 10/2019
+
+## **Education**
+
+* [General Assembly D.C.](https://generalassemb.ly/education/general-assembly-dc-open-office-hours/online). Software Engineering Immersive Course 11/2019 - 03/2020
+* [Westminster International University in Tashkent](https://wiut.uz/). Economics 09/2017 - 06/2018
+* [NUST Moscow State University of Steel and Alloys](https://en.misis.ru/). Metallurgical Engineering. Master's degree 09/2011 - 06/2013
+* [NUST Moscow State University of Steel and Alloys](https://en.misis.ru/). Metallurgical Engineering. Bachelor's degree 09/2007 - 06/2011
+* [Tashkent institute of railway transport engineers](http://tashiit.uz/en/home-eng/). Information technologies. 09/2006 - 06/2007
