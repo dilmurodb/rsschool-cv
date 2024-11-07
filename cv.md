@@ -63,3 +63,10 @@ button.addEventListener("click", function resetGame() {
 * [NUST Moscow State University of Steel and Alloys](https://en.misis.ru/). Metallurgical Engineering. Master's degree 09/2011 - 06/2013
 * [NUST Moscow State University of Steel and Alloys](https://en.misis.ru/). Metallurgical Engineering. Bachelor's degree 09/2007 - 06/2011
 * [Tashkent institute of railway transport engineers](http://tashiit.uz/en/home-eng/). Information technologies. 09/2006 - 06/2007
+
+## **English language proficiency**
+
+* [IELTS](https://www.britishcouncil.uz/en/exam/ielts/test-dates-fees-location?gad_source=1&gclid=Cj0KCQiA57G5BhDUARIsACgCYnxwvK5t5aGqAkUvkCCXeeHzGiKk9gd0UpR85uJeuxbiDsrHMRt-mkgaAmMEEALw_wcB) Overall band score 7.5
+* Completed in person software engineering course in USA with native speakers of english
+* I lived in the USA for 5 years and during that time I worked with english speakers.
+* Attended classes in Economics at Westminster International University in Tashkent for one year, where the language of instruction was in english
