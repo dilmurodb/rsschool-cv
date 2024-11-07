@@ -34,7 +34,53 @@
 
 ## **Code example**
 
+> This code example is from real client project for [Modern Trousseau Website](https://www.moderntrousseau.com/) built in collaboration with 12 SEI34 students/junior developers and 3 mentors/senior developers during Software Engineering Immersive Course at General Assembly D.C. The project's design is in [Figma](https://www.figma.com/design/w42hMiF0R2cAdckfd3jpWh/Modern-Trousseau-Final). Here is the [GitHub link](https://github.com/dilmurodb/modern-trousseau-gatsby).
 
+> Mentors:
+* [John Serrao](https://github.com/jserrao): Product Manager (in charge of sprints, releases and stand up meetings)
+* [Erin Kelley](https://github.com/erinkelley27): Front-end Team Lead
+* [Roger Campbell](https://github.com/mrrogercampbell): Back-end Team Lead 
+
+> Junior developers were split into: 
+* **Front-end Team**
+* **Back-end Team** 
+* **Testing**
+* **Integration Specialist**
+
+> As a junior developer/student I was on **front-end team** and worked on **React** components
+
+Text.css file [(GitHub source code)](https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.css):
+
+```
+.text-area {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(227,224,222);
+    color: rgb(94,91,90);
+    font-size: 25px;
+}
+
+.text-area-title {
+    font-size: 30px;
+}
+```
+
+Text.js file [(GitHub source code)](https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.js):
+
+```
+import React from 'react'
+import './Text.css'
+
+
+const Text = (props) => <div>
+<p className={props.pClassList}>Is there anything else you want us to know?</p>
+<textarea className={props.textAreaClassList}>
+Tell us about your dream dress! Do you have any Modern Trousseau favorites?
+</textarea></div>
+
+
+export default Text
+```
 
 ## **Experience**
 
