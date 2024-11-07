@@ -33,3 +33,17 @@
   * **GitHub**
 
 ## **Code example**
+
+> **The code** below is the part of the game script called [tic-tac-toe](https://github.com/dilmurodb/tic-tac/blob/master/main.js).
+
+```
+let button = document.querySelector(".button");
+button.addEventListener("click", function resetGame() {
+  for (let i = 0; i < grids.length; i++) {
+    grids[i].style.backgroundColor = "white";
+    turnIndicator.style.backgroundColor = "blue";
+    checkbox = 0;
+    turn = 0;
+  }
+});
+```
