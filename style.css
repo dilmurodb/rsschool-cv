@@ -12,6 +12,11 @@ img {
     display: block;
 }
 
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
 body {
     padding: 0% 10%;
     min-height: 100vh;
@@ -64,4 +69,16 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.summary-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
