@@ -83,6 +83,74 @@
                     </ul>
                 </div>
             </div>
+            <article>
+                <h2>Code example</h2>
+                <p>This code example is from real client project for <span><a href="https://www.moderntrousseau.com/"
+                            target="_blank">Modern Trousseau Website</a></span> built in collaboration
+                    with 12 SEI34
+                    students/junior developers and 3 mentors/senior developers during Software Engineering Immersive
+                    Course at General
+                    Assembly D.C. The project’s design is in <span><a
+                            href="https://www.figma.com/design/w42hMiF0R2cAdckfd3jpWh/Modern-Trousseau-Final"
+                            target="_blank">Figma</a></span>. Here is the <span><a
+                            href="https://github.com/dilmurodb/modern-trousseau-gatsby" target="_blank">GitHub
+                            link</a></span>.</p>
+                <aside>
+                    <p>Mentors:</p>
+                    <ul>
+                        <li><a href="https://github.com/jserrao" target="_blank">John Serrao</a>: Product Manager (in
+                            charge of sprints, releases and stand up meetings)</li>
+                        <li><a href="https://github.com/erinkelley27" target="_blank">Erin Kelley</a>: Front-end Team
+                            Lead</li>
+                        <li><a href="https://github.com/mrrogercampbell" target="_blank">Roger Campbell</a>: Back-end
+                            Team Lead</li>
+                    </ul>
+                    <p>Junior developers were split into:</p>
+                    <ul>
+                        <li>Front-end Team</li>
+                        <li>Back-end Team</li>
+                        <li>Testing</li>
+                        <li>Integration Specialist</li>
+                    </ul>
+                    <p>As a junior developer/student I was on front-end team and worked on React components</p>
+                </aside>
+                <p>Text.css file (<a
+                        href="https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.css"
+                        target="_blank">GitHub source code</a>):</p>
+                <pre>
+                    <code>.text-area {
+                        width: 400px;
+                        height: 150px;
+                        background-color: rgb(227,224,222);
+                        color: rgb(94,91,90);
+                        font-size: 25px;
+                    }
+                    
+                    .text-area-title {
+                        font-size: 30px;
+                    }</code>
+                </pre>
+                <p>Text.js file (<a
+                        href="https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.js"
+                        target="_blank">GitHub source code</a>):</p>
+                <pre>
+                    <code>
+                        import React from 'react'
+                        import './Text.css'
+                        
+                        
+                        const Text = (props) => &lt;div&gt;
+                            &lt;p className={props.pClassList}&gt;Is there anything else you want us to know?&lt;/p&gt;
+                            &lt;textarea className={props.textAreaClassList}&gt;
+                        Tell us about your dream dress! Do you have any Modern Trousseau favorites?
+                        &lt;/textarea&gt;
+                        &lt;/div&gt;
+                        
+                        
+                        export default Text
+                    </code>
+                </pre>
+            </article>
         </section>
     </main>
     <footer></footer>
