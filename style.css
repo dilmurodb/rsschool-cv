@@ -8,6 +8,10 @@ html {
     background-color: papayawhip;
 }
 
+img {
+    display: block;
+}
+
 body {
     padding: 0% 10%;
     min-height: 100vh;
@@ -36,4 +40,28 @@ header {
 
 .navbar-list li {
     margin-right: 40px;
+}
+
+.image-container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic-figure {
+    width: 20%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 1px solid black;
+}
+
+.contacts-container {
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
