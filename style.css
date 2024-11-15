@@ -82,3 +82,13 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
+.skills-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
