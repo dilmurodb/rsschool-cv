@@ -6,10 +6,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b26a67ed2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+    <header>
+        <nav class="navbar">
+            <div>
+                <p><strong>Dilmurod Bukharov</strong></p>
+            </div>
+            <ul class="navbar-list">
+                <li class="listitem"><a href="#" class="navbar-item">Skills</a></li>
+                <li class="listitem"><a href="#" class="navbar-item">Experience</a></li>
+                <li class="listitem"><a href="#" class="navbar-item">Education</a></li>
+                <li class="listitem"><a href="#" class="navbar-item">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="image-container">
+            <figure class="profile-pic-figure">
+                <img src="img/picture.jpg" alt="Profile Picture" title="My Profile Picture" width="2040" height="2040">
+                <figcaption class="offscreen">Dilmurod Bukharov</figcaption>
+            </figure>
+            <div class="contacts-container">
+                <h2>Contact information:</h2>
+                <ul class="contacts-list">
+                    <li>Phone: +(998)910101711</li>
+                    <li>E-mail: dilmurod.bukharov@gmail.com</li>
+                    <li>GitHub: <a href="https://github.com/dilmurodb" target="_blank">@dilmurodb</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/d-bukharov/" target="_blank">d-bukharov</a></li>
+                    <li>Telegram: @dilmurodbukharov</li>
+                </ul>
+            </div>
+        </div>
+        <section class="summary-section">
+            <h2>Dilmurod Bukharov</h2>
+            <h4>Web Developer</h4>
+            <article class="summary-article">
+                <h2>Summary</h2>
+                <p>Aspiring web developer with educational background in industrial engineering. After succesfully
+                    graduating from reputable university where I spent 6 years learning highly technical subjects, I
+                    worked as a teacher assistant and tutor where I improved my communication skills with great number
+                    of students. My jurney into web development started when I enrolled in Software Engineering
+                    Immersive Course, where I learned the fundamentals of programming. After completing the course I
+                    worked for international analytical company as Web Application Developer. Although my experience
+                    working for Independent Project Analysis, Inc is less then a year, I have gained valuable skills
+                    working with a team of developers and learned how to achieve great results. I am excellent problem
+                    solver, communicative, adabtable and with great attention to detail which allows me to bring
+                    outstanding results for any development team.</p>
+            </article>
+        </section>
+        <section class="skills-section">
+            <h2 class="skills-heading">Skills</h2>
+            <div class="skills-container">
+                <div>
+                    <h4>Programming Languages:</h4>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript, TypeScript</li>
+                        <li>NodeJs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Frameworks and libraries:</h4>
+                    <ul>
+                        <li>ReactJs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Platforms and Version Control :</h4>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Heroku, Netlify</li>
+                        <li>Jira, Atlassian</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+            <article>
+                <h2>Code example</h2>
+                <p>This code example is from real client project for <span><a href="https://www.moderntrousseau.com/"
+                            target="_blank">Modern Trousseau Website</a></span> built in collaboration
+                    with 12 SEI34
+                    students/junior developers and 3 mentors/senior developers during Software Engineering Immersive
+                    Course at General
+                    Assembly D.C. The project’s design is in <span><a
+                            href="https://www.figma.com/design/w42hMiF0R2cAdckfd3jpWh/Modern-Trousseau-Final"
+                            target="_blank">Figma</a></span>. Here is the <span><a
+                            href="https://github.com/dilmurodb/modern-trousseau-gatsby" target="_blank">GitHub
+                            link</a></span>.</p>
+                <aside>
+                    <p>Mentors:</p>
+                    <ul>
+                        <li><a href="https://github.com/jserrao" target="_blank">John Serrao</a>: Product Manager (in
+                            charge of sprints, releases and stand up meetings)</li>
+                        <li><a href="https://github.com/erinkelley27" target="_blank">Erin Kelley</a>: Front-end Team
+                            Lead</li>
+                        <li><a href="https://github.com/mrrogercampbell" target="_blank">Roger Campbell</a>: Back-end
+                            Team Lead</li>
+                    </ul>
+                    <p>Junior developers were split into:</p>
+                    <ul>
+                        <li>Front-end Team</li>
+                        <li>Back-end Team</li>
+                        <li>Testing</li>
+                        <li>Integration Specialist</li>
+                    </ul>
+                    <p>As a junior developer/student I was on front-end team and worked on React components</p>
+                </aside>
+                <p>Text.css file (<a
+                        href="https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.css"
+                        target="_blank">GitHub source code</a>):</p>
+                <pre>
+                    <code>.text-area {
+                        width: 400px;
+                        height: 150px;
+                        background-color: rgb(227,224,222);
+                        color: rgb(94,91,90);
+                        font-size: 25px;
+                    }
+                    
+                    .text-area-title {
+                        font-size: 30px;
+                    }</code>
+                </pre>
+                <p>Text.js file (<a
+                        href="https://github.com/dilmurodb/modern-trousseau/blob/textarea/client/src/components/TextArea/Text.js"
+                        target="_blank">GitHub source code</a>):</p>
+                <pre>
+                    <code>
+                        import React from 'react'
+                        import './Text.css'
+                        
+                        
+                        const Text = (props) => &lt;div&gt;
+                            &lt;p className={props.pClassList}&gt;Is there anything else you want us to know?&lt;/p&gt;
+                            &lt;textarea className={props.textAreaClassList}&gt;
+                        Tell us about your dream dress! Do you have any Modern Trousseau favorites?
+                        &lt;/textarea&gt;
+                        &lt;/div&gt;
+                        
+                        
+                        export default Text
+                    </code>
+                </pre>
+            </article>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>Freelance Web Developer 5/2022 - current</li>
+                <li>Web Application Developer at <a href="https://www.ipaglobal.com/" target="_blank">Independent
+                        Project Analysis Inc</a> 12/2021 - 04/2022</li>
+                <li>Insurance agent at <a href="http://prestige01.com/" target="_blank">Prestige Insurance Services</a>
+                    05/2021 -
+                    12/2021</li>
+                <li>Data Collection Interviewer at <a href="https://ucsur.pitt.edu/" target="_blank">UCSUR, University
+                        of Pittsburgh</a>
+                    03/2019 - 10/1019</li>
+                <li>Sales Associate at <a
+                        href="https://locations.forever21.com/us/stores/pa/pittsburgh/100-robinson-centre-dr"
+                        target="_blank">Forever
+                        XXI</a> 01/2019 - 10/2019</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><a href="https://generalassemb.ly/education/general-assembly-dc-open-office-hours/online"
+                        target="_blank">General Assembly D.C.</a>. Software Engineering Immersive Course 11/2019 -
+                    03/2020</li>
+                <li><a href="https://wiut.uz/" target="_blank">Westminster International University in Tashkent</a>.
+                    Economics 09/2017 - 06/2018</li>
+                <li><a href="https://en.misis.ru/" target="_blank">NUST Moscow State University of Steel and Alloys</a>.
+                    Metallurgical Engineering. Master’s degree 09/2011
+                    - 06/2013</li>
+                <li><a href="https://en.misis.ru/" target="_blank">NUST Moscow State University of Steel and Alloys</a>.
+                    Metallurgical Engineering. Bachelor’s degree
+                    09/2007 - 06/2011</li>
+                <li><a href="http://tashiit.uz/en/home-eng/" target="_blank">Tashkent institute of railway transport
+                        engineers</a>. Information technologies. 09/2006 - 06/2007</li>
+            </ul>
+        </section>
+        <section>
+            <h2>English language proficiency</h2>
+            <ul>
+                <li><a href="https://www.britishcouncil.uz/en" target="_blank">IELTS</a> Overall band score 7.5</li>
+                <li>Completed in person software engineering course in USA with native speakers of english</li>
+                <li>I lived in the USA for 5 years and during that time I worked with english speakers.</li>
+                <li>Attended classes in Economics at Westminster International University in Tashkent for one year,
+                    where the language of
+                    instruction was in english</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <i class="fa-regular fa-copyright">2024</i>
+        <a href="https://github.com/dilmurodb" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/d-bukharov/" target="_blank"><i
+                class="fa-brands fa-linkedin fa-lg"></i></a>
+        <a href="https://rs.school/courses/javascript" target="_blank"><img src="img/rs-school-logo.svg"
+                alt="RSschool Logo" title="RSschool logo" width="40"></a>
+    </footer>
 </body>
 
 </html>
