@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: papayawhip;
+}
+
+body {
+    padding: 0% 10%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1B998B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list li {
+    margin-right: 40px;
+}
