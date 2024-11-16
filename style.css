@@ -47,6 +47,7 @@ ul {
 
 pre {
     background-color: hsl(0, 3%, 80%);
+    white-space: pre-wrap;
 }
 
 .heroku-netlify {
@@ -54,7 +55,6 @@ pre {
 }
 
 header {
-    /* background-color: #1B998B; */
     background-color: orange;
 }
 
@@ -80,10 +80,8 @@ header {
 }
 
 .image-container {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 2rem; */
 }
 
 .profile-pic-figure {
@@ -189,6 +187,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.experience-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
 .education-section {
     margin-bottom: 5rem;
 }
@@ -199,6 +202,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.education-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
 .language-section {
     margin-bottom: 5rem;
 }
@@ -207,6 +215,11 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+.language-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 .footer {
