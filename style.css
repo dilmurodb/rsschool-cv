@@ -47,14 +47,18 @@ ul {
 
 pre {
     background-color: hsl(0, 3%, 80%);
+    white-space: pre-wrap;
 }
+
+/* .code {
+    width: 40rem;
+} */
 
 .heroku-netlify {
     font-family: "Font Awesome 6 Brands";
 }
 
 header {
-    /* background-color: #1B998B; */
     background-color: orange;
 }
 
@@ -80,10 +84,8 @@ header {
 }
 
 .image-container {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 2rem; */
 }
 
 .profile-pic-figure {
