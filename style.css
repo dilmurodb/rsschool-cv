@@ -189,6 +189,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.experience-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
 .education-section {
     margin-bottom: 5rem;
 }
@@ -199,6 +204,11 @@ header {
     margin-bottom: 2rem;
 }
 
+.education-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
 .language-section {
     margin-bottom: 5rem;
 }
@@ -207,6 +217,11 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+.language-list {
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 .footer {
