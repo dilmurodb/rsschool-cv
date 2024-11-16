@@ -45,6 +45,10 @@ ul {
     list-style-type: none;
 }
 
+pre {
+    background-color: hsl(0, 3%, 80%);
+}
+
 .heroku-netlify {
     font-family: "Font Awesome 6 Brands";
 }
@@ -79,6 +83,7 @@ header {
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 2rem; */
 }
 
 .profile-pic-figure {
@@ -99,28 +104,121 @@ header {
     justify-content: center;
 }
 
+.contacts-list {
+    line-height: 1.3rem;
+}
+
 .summary-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5rem;
 }
 
 .summary-article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 }
 
-.skills-heading {
-    display: flex;
-    justify-content: center;
+.summary-paragraph {
+    margin-top: 1.5rem;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+
+.skills-section {
+    margin-bottom: 5rem;
 }
 
 .skills-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 3rem;
 }
 
-pre {
-    background-color: hsl(0, 3%, 80%);
+.skills-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+
+.skills-sub-heading {
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.skills-list {
+    line-height: 1.5rem;
+}
+
+.code-example-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.code-example-paragraph {
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+
+.code-example-aside {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.code-example-aside p {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.code-example-file {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.experience-section {
+    margin-bottom: 5rem;
+}
+
+.experience-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.education-section {
+    margin-bottom: 5rem;
+}
+
+.education-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.language-section {
+    margin-bottom: 5rem;
+}
+
+.language-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9B71;
+    height: 5rem;
+}
+
+.footer a, i {
+    margin-right: 1.5rem;
+}
+
+
