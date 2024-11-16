@@ -120,3 +120,7 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+pre {
+    background-color: hsl(0, 3%, 80%);
+}
