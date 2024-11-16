@@ -20,10 +20,38 @@ img {
 body {
     padding: 0% 10%;
     min-height: 100vh;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: dodgerblue;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.heroku-netlify {
+    font-family: "Font Awesome 6 Brands";
 }
 
 header {
-    background-color: #1B998B;
+    /* background-color: #1B998B; */
+    background-color: orange;
 }
 
 .navbar {
@@ -48,7 +76,7 @@ header {
 }
 
 .image-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -61,7 +89,7 @@ header {
     width: 100%;
     height: auto;
     min-width: 100px;
-    border: 1px solid black;
+    border: 3px double black;
 }
 
 .contacts-container {
@@ -91,4 +119,8 @@ header {
 .skills-container {
     display: flex;
     justify-content: space-around;
+}
+
+pre {
+    background-color: hsl(0, 3%, 80%);
 }
