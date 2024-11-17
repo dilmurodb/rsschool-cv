@@ -177,6 +177,35 @@ header {
     margin-bottom: 1.2rem;
 }
 
+.projects-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    padding: 1.2rem;
+}
+
+.kanban-heading {
+    margin-bottom: 1.5rem;
+}
+
+.tic-tac-heading {
+    margin-bottom: 1.5rem;
+}
+
+.trivia-heading {
+    margin-bottom: 1.5rem;
+}
+
+.deployed-project-logo-heading {
+    margin-top: 1.4rem;
+}
+
 .experience-section {
     margin-bottom: 5rem;
 }
